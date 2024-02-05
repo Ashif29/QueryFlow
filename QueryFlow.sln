@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryFlow.Web", "QueryFlow.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryFlow.Domain", "QueryFlow.Domain\QueryFlow.Domain.csproj", "{10C35016-DA5B-479D-BE72-8DBACF071699}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryFlow.Application", "QueryFlow.Application\QueryFlow.Application.csproj", "{1B56DA43-5BD1-4DA4-93E2-CD6E740FCB2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{10C35016-DA5B-479D-BE72-8DBACF071699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C35016-DA5B-479D-BE72-8DBACF071699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C35016-DA5B-479D-BE72-8DBACF071699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B56DA43-5BD1-4DA4-93E2-CD6E740FCB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B56DA43-5BD1-4DA4-93E2-CD6E740FCB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B56DA43-5BD1-4DA4-93E2-CD6E740FCB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B56DA43-5BD1-4DA4-93E2-CD6E740FCB2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
