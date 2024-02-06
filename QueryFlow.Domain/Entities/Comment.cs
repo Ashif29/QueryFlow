@@ -9,10 +9,9 @@ namespace QueryFlow.Domain.Entities
     public class Comment
     {
         public int Id { get; set; }
-        public DateTime CreatedOn { get; set; }
+        public DateTime? CreatedOn { get; set; }
         public required string CommentContent { get; set; }
         public string CommentedBy { get; set; }
-        public Comment Parent { get; set; }
         public Question ParentQuestion { get; set; }
     }
 }

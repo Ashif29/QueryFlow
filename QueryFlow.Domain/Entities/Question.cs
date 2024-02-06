@@ -10,7 +10,7 @@ namespace QueryFlow.Domain.Entities
     public class Question
     {
         public int Id { get; set; }
-        public DateTime CreatedOn { get; set; }
+        public DateTime? CreatedOn { get; set; }
         public required string QuestionContent { get; set; }
     }
 }
